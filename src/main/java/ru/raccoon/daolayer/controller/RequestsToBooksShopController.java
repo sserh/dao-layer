@@ -9,11 +9,11 @@ import java.util.List;
 import java.util.Locale;
 
 @RestController
-public class RequestController {
+public class RequestsToBooksShopController {
 
     private final BooksShopRepository repository;
 
-    public RequestController(BooksShopRepository repository) {
+    public RequestsToBooksShopController(BooksShopRepository repository) {
         this.repository = repository;
     }
 
